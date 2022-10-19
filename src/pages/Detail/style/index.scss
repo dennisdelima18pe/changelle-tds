@@ -1,0 +1,83 @@
+$color-primary:#CECECE;
+
+#loading{
+    background:#616978;
+    width:100vw;
+    height:100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+#background-area-detail{
+    background:#616978;
+    width:100vw;
+    height:100vh;
+    padding:1rem;
+    color:white;
+    background-size: cover;
+}
+#area-detail{
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#title-location{
+    font-size: 2rem;
+}
+#condition-temp{
+    margin:0.1rem 0;
+    color:$color-primary;
+    font-size: 1.3rem;
+}
+
+#current-temp{
+    font-size:5rem;
+    vertical-align: text-top;
+    box-sizing:border-box;
+    display: flex;
+}
+#current-temp > div{
+    font-size:1rem;
+    vertical-align:text-top;
+    display:inline-block;
+    margin-top:1rem;
+    margin-left: 0.5rem;
+    font-weight:600;
+   
+}
+#area-temp-max-min{
+    font-size:0.8rem;
+    margin-top:0.8rem;
+    color:$color-primary;
+}
+#img-temp{
+    align-self: center;
+}
+#area-cards-temp{
+    display: flex;
+    gap:1rem;
+}
+
+.card-temp{
+    border-right:1px solid $color-primary;
+    padding-right:1rem;
+}
+.title-card-temp{
+    color:$color-primary;
+    margin-bottom:0.2rem;
+}
+#day-weather-forecast{
+    display:flex;
+    color:$color-primary;
+    align-items:flex-start;
+    margin:3rem 0;
+    gap: 0.5rem;
+   
+}

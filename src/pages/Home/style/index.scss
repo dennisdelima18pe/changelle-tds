@@ -1,0 +1,38 @@
+$bg-primary:#0F0F0F;
+$color-primary:#CECECE;
+
+#area-home{
+    background:$bg-primary;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+#title{
+    font-weight: normal;
+    color:#CECECE;
+    font-family: sans-serif;
+}
+#subTitle{
+  font-weight: normal;
+  color:white;
+  font-family: sans-serif;
+}
+main{
+    text-align:center;
+}
+#image-world{
+    margin:2rem 0;
+}
+/* Grid */
+#area-cities {
+	display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:1rem;
+}
+.city{
+    text-decoration:none;
+    margin-bottom:1rem;
+    color:$color-primary;
+}
+
